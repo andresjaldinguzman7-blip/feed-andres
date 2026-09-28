@@ -1,0 +1,32 @@
+{
+  "_que_es": "Datos macro leídos de las fuentes primarias de EE.UU. — BLS, BEA, Census, DOL y la Fed — más contexto de FRED. Corre en GitHub Actions, sin la computadora de Andrés.",
+  "_como_leerlo": "'contexto' trae el último valor de cada serie. 'publicaciones' guarda cada comunicado capturado: 'cifras' es extracción automática y puede fallar, 'texto_crudo' es el texto real. Ante la duda, vale el texto crudo.",
+  "_aviso_latencia": "GitHub Actions no dispara con precisión de minuto: puede retrasarse. La captura está abierta 45 minutos desde la hora programada.",
+  "generado": {
+    "bolivia": "2026-09-28 10:40:27",
+    "bolivia_hora": "10:40",
+    "utc_iso": "2026-09-28T14:40:27+00:00",
+    "dia_semana": "lunes"
+  },
+  "contexto": {
+    "us10y": {
+      "error": "falta el secreto FRED_API_KEY en el repositorio"
+    },
+    "us2y": {
+      "error": "falta el secreto FRED_API_KEY en el repositorio"
+    },
+    "us30y": {
+      "error": "falta el secreto FRED_API_KEY en el repositorio"
+    },
+    "vix": {
+      "error": "falta el secreto FRED_API_KEY en el repositorio"
+    },
+    "dxy": {
+      "error": "falta el secreto FRED_API_KEY en el repositorio"
+    },
+    "wti": {
+      "error": "falta el secreto FRED_API_KEY en el repositorio"
+    }
+  },
+  "publicaciones": {}
+}
