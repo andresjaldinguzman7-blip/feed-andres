@@ -3,29 +3,47 @@
   "_como_leerlo": "'contexto' trae el último valor de cada serie. 'publicaciones' guarda cada comunicado capturado: 'cifras' es extracción automática y puede fallar, 'texto_crudo' es el texto real. Ante la duda, vale el texto crudo.",
   "_aviso_latencia": "GitHub Actions no dispara con precisión de minuto: puede retrasarse. La captura está abierta 45 minutos desde la hora programada.",
   "generado": {
-    "bolivia": "2026-09-28 10:40:27",
-    "bolivia_hora": "10:40",
-    "utc_iso": "2026-09-28T14:40:27+00:00",
+    "bolivia": "2026-09-28 12:14:39",
+    "bolivia_hora": "12:14",
+    "utc_iso": "2026-09-28T16:14:39+00:00",
     "dia_semana": "lunes"
   },
   "contexto": {
     "us10y": {
-      "error": "falta el secreto FRED_API_KEY en el repositorio"
+      "valor": 5.18,
+      "fecha": "2026-09-24",
+      "previo": 5.11,
+      "cambio": 0.07
     },
     "us2y": {
-      "error": "falta el secreto FRED_API_KEY en el repositorio"
+      "valor": 4.87,
+      "fecha": "2026-09-24",
+      "previo": 4.85,
+      "cambio": 0.02
     },
     "us30y": {
-      "error": "falta el secreto FRED_API_KEY en el repositorio"
+      "valor": 5.47,
+      "fecha": "2026-09-24",
+      "previo": 5.4,
+      "cambio": 0.07
     },
     "vix": {
-      "error": "falta el secreto FRED_API_KEY en el repositorio"
+      "valor": 14.21,
+      "fecha": "2026-09-22",
+      "previo": 14.87,
+      "cambio": -0.66
     },
     "dxy": {
-      "error": "falta el secreto FRED_API_KEY en el repositorio"
+      "valor": 119.5133,
+      "fecha": "2026-09-18",
+      "previo": 119.3489,
+      "cambio": 0.1644
     },
     "wti": {
-      "error": "falta el secreto FRED_API_KEY en el repositorio"
+      "valor": 96.41,
+      "fecha": "2026-09-22",
+      "previo": 96.97,
+      "cambio": -0.56
     }
   },
   "publicaciones": {}
