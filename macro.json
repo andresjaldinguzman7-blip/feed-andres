@@ -3,9 +3,9 @@
   "_como_leerlo": "'contexto' trae el último valor de cada serie. 'publicaciones' guarda cada comunicado capturado: 'cifras' es extracción automática y puede fallar, 'texto_crudo' es el texto real. Ante la duda, vale el texto crudo.",
   "_aviso_latencia": "GitHub Actions no dispara con precisión de minuto: puede retrasarse. La captura está abierta 45 minutos desde la hora programada.",
   "generado": {
-    "bolivia": "2026-09-28 12:14:39",
-    "bolivia_hora": "12:14",
-    "utc_iso": "2026-09-28T16:14:39+00:00",
+    "bolivia": "2026-09-28 13:25:10",
+    "bolivia_hora": "13:25",
+    "utc_iso": "2026-09-28T17:25:10+00:00",
     "dia_semana": "lunes"
   },
   "contexto": {
