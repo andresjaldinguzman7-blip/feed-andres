@@ -1,0 +1,49 @@
+name: Feed macro
+
+# Corre solo, en los servidores de GitHub. No necesita tu computadora.
+on:
+  schedule:
+    # Horarios en UTC. Bolivia es UTC-4, así que restá 4 para tu hora.
+    # Cubren las publicaciones de 8:30 y 10:00 del Este y el FOMC de las 14:00.
+    - cron: "30,40,50 12 * * 1-5"   # 08:30 / 08:40 / 08:50 Bolivia
+    - cron: "0,10,30 13 * * 1-5"    # 09:00 / 09:10 / 09:30 Bolivia
+    - cron: "0,15,30 14 * * 1-5"    # 10:00 / 10:15 / 10:30 Bolivia
+    - cron: "0,20 18 * * 1-5"       # 14:00 / 14:20 Bolivia (FOMC)
+    - cron: "0 16,20,2 * * *"       # contexto: 12:00, 16:00 y 22:00 Bolivia
+  workflow_dispatch:                 # botón para dispararlo a mano
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feed-macro
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Leer fuentes primarias
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python macro_cloud.py
+
+      - name: Publicar cambios
+        run: |
+          git config user.name "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          git add macro.json
+          if git diff --staged --quiet; then
+            echo "sin cambios"
+          else
+            git commit -m "macro $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
