@@ -3,10 +3,10 @@
   "_como_leerlo": "'contexto' trae el último valor de cada serie. 'publicaciones' guarda cada comunicado capturado: 'cifras' es extracción automática y puede fallar, 'texto_crudo' es el texto real. Ante la duda, vale el texto crudo.",
   "_aviso_latencia": "GitHub Actions no dispara con precisión de minuto: puede retrasarse. La captura está abierta 45 minutos desde la hora programada.",
   "generado": {
-    "bolivia": "2026-09-28 22:11:44",
-    "bolivia_hora": "22:11",
-    "utc_iso": "2026-09-29T02:11:44+00:00",
-    "dia_semana": "lunes"
+    "bolivia": "2026-09-29 08:44:47",
+    "bolivia_hora": "08:44",
+    "utc_iso": "2026-09-29T12:44:47+00:00",
+    "dia_semana": "martes"
   },
   "contexto": {
     "us10y": {
@@ -46,5 +46,53 @@
       "cambio": -0.56
     }
   },
-  "publicaciones": {}
+  "publicaciones": {
+    "pce": {
+      "nombre": "Ingreso personal y PCE",
+      "fuente": "BEA",
+      "url": "https://www.bea.gov/news/current-releases",
+      "capturado": {
+        "bolivia": "2026-09-29 08:44:47",
+        "bolivia_hora": "08:44",
+        "utc_iso": "2026-09-29T12:44:47+00:00",
+        "dia_semana": "martes"
+      },
+      "hora_et_programada": "08:30",
+      "_firma": "Releases | U.S. Bureau of Economic Analysis (BEA) Skip to main content An official website of the United States government Toggle navigation Main navigation Data by Topic by Place by Economic Account Tools Interactive Data Application Programming Interface (API) Global Value Chain Analyzer Income Distribution Analysis Tool (IDAT) Country Facts BEARFACTS Industry Facts GDP & Personal Income Mapping",
+      "texto_crudo": "Releases | U.S. Bureau of Economic Analysis (BEA) Skip to main content An official website of the United States government Toggle navigation Main navigation Data by Topic by Place by Economic Account Tools Interactive Data Application Programming Interface (API) Global Value Chain Analyzer Income Distribution Analysis Tool (IDAT) Country Facts BEARFACTS Industry Facts GDP & Personal Income Mapping RIMS II eFile News Economy at a Glance News Releases Release Schedule The BEA Wire | BEA&#039;s Official Blog Survey of Current Business Archive For Journalists Research Offices of Research Meet the Researchers Papers Special Sworn Researcher Program Research Using Company-Level Data Fellowship Program Resources Learning Center Methodologies Multimedia Article Collections For Congressional Users For Developers For Students About Who We Are BEA Leadership Innovation at BEA Advisory Committees Budget and Performance Policies and Information Working at BEA Help Contact Us Ask an Expert For Survey Respondents Frequently Asked Questions (FAQ) Glossary Guidelines for Citing BEA Home News Releases Releases Release Published U.S. International Transactions and Investment Position, 2nd Quarter 2026 September 24, 2026 U.S. International Trade in Goods and Services, July 2026 September 3, 2026 Personal Income and Outlays, July 2026 August 26, 2026 GDP (Second Estimate) and Corporate Profits, 2nd Quarter 2026 August 26, 2026 Direct Investment by Country and Industry, 2025 July 21, 2026 Activities of U.S. Affiliates of Foreign Multinational Enterprises, 2024 July 10, 2026 New Foreign Direct Investment in the United States, 2025 June 10, 2026 Outdoor Recreation Economic Statistics, U.S. and States, 2024 March 5, 2026 Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024 February 19, 2026 Gross Domestic Product by County and Personal Income by County, 2024 February 5, 2026 Gross Domestic Product for Puerto Rico, 2023 September 16, 2025 Activities of U.S. Multinational Enterprises, 2023 August 22, 2025 Quick Links Economy at a Glance News Releases Release Schedule The BEA Wire | BEA&#039;s Official Blog Survey of Current Business Archive For Journalists Looking for archived news releases? Browse the news release archive for previously published materials. Media Contacts News Media Connie O'Connell (301) 278-9003 Connie.OConnell@bea.gov News Media Thomas Dail (301) 278-9003 Thomas.Dail@bea.gov Download Acrobat Reader Page last modified on 9/29/26 Bureau of Economic Analysis 4600 Silver Hill Road &bull; Suitland, MD 20746 Contact Us Working at BEA Frequently Asked Questions Our Policies Privacy Commitment to Scientific Integrity Data Dissemination Practices Open Data USA.gov Business USA No FEAR Act FOIA U.S. Department of Commerce Emergency Status The BEA Wire | BEA's Official Blog News Release Feed (RSS) Sign up for Email Notifications",
+      "cifras": {}
+    },
+    "retail": {
+      "nombre": "Ventas minoristas",
+      "fuente": "Census",
+      "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
+      "capturado": {
+        "bolivia": "2026-09-29 08:44:47",
+        "bolivia_hora": "08:44",
+        "utc_iso": "2026-09-29T12:44:47+00:00",
+        "dia_semana": "martes"
+      },
+      "hora_et_programada": "08:30",
+      "_firma": "",
+      "pdf": true,
+      "bytes": 379372,
+      "nota": "PDF disponible; abrir la URL para ver las cifras"
+    },
+    "durables": {
+      "nombre": "Bienes durables",
+      "fuente": "Census",
+      "url": "https://www.census.gov/manufacturing/m3/adv/pdf/durgd.pdf",
+      "capturado": {
+        "bolivia": "2026-09-29 08:44:47",
+        "bolivia_hora": "08:44",
+        "utc_iso": "2026-09-29T12:44:47+00:00",
+        "dia_semana": "martes"
+      },
+      "hora_et_programada": "08:30",
+      "_firma": "",
+      "pdf": true,
+      "bytes": 1017457,
+      "nota": "PDF disponible; abrir la URL para ver las cifras"
+    }
+  }
 }
