@@ -3,29 +3,29 @@
   "_como_leerlo": "'contexto' trae el último valor de cada serie. 'publicaciones' guarda cada comunicado capturado: 'cifras' es extracción automática y puede fallar, 'texto_crudo' es el texto real. Ante la duda, vale el texto crudo.",
   "_aviso_latencia": "GitHub Actions no dispara con precisión de minuto: puede retrasarse. La captura está abierta 45 minutos desde la hora programada.",
   "generado": {
-    "bolivia": "2026-10-19 14:59:10",
-    "bolivia_hora": "14:59",
-    "utc_iso": "2026-10-19T18:59:10+00:00",
+    "bolivia": "2026-10-19 16:26:02",
+    "bolivia_hora": "16:26",
+    "utc_iso": "2026-10-19T20:26:02+00:00",
     "dia_semana": "lunes"
   },
   "contexto": {
     "us10y": {
-      "valor": 5.1,
-      "fecha": "2026-10-15",
-      "previo": 5.19,
-      "cambio": -0.09
+      "valor": 5.09,
+      "fecha": "2026-10-16",
+      "previo": 5.1,
+      "cambio": -0.01
     },
     "us2y": {
-      "valor": 4.77,
-      "fecha": "2026-10-15",
-      "previo": 4.82,
-      "cambio": -0.05
+      "valor": 4.74,
+      "fecha": "2026-10-16",
+      "previo": 4.77,
+      "cambio": -0.03
     },
     "us30y": {
       "valor": 5.43,
-      "fecha": "2026-10-15",
-      "previo": 5.52,
-      "cambio": -0.09
+      "fecha": "2026-10-16",
+      "previo": 5.43,
+      "cambio": 0.0
     },
     "vix": {
       "valor": 19.99,
@@ -34,10 +34,10 @@
       "cambio": 3.53
     },
     "dxy": {
-      "valor": 121.6023,
-      "fecha": "2026-10-09",
-      "previo": 121.4469,
-      "cambio": 0.1554
+      "valor": 121.4048,
+      "fecha": "2026-10-16",
+      "previo": 121.5693,
+      "cambio": -0.1645
     },
     "wti": {
       "valor": 101.91,
