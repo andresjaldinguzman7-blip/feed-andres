@@ -3,29 +3,47 @@
   "_como_leerlo": "'contexto' trae el último valor de cada serie. 'publicaciones' guarda cada comunicado capturado: 'cifras' es extracción automática y puede fallar, 'texto_crudo' es el texto real. Ante la duda, vale el texto crudo.",
   "_aviso_latencia": "GitHub Actions no dispara con precisión de minuto: puede retrasarse. La captura está abierta 45 minutos desde la hora programada.",
   "generado": {
-    "bolivia": "2026-10-21 22:25:36",
-    "bolivia_hora": "22:25",
-    "utc_iso": "2026-10-22T02:25:36+00:00",
-    "dia_semana": "miércoles"
+    "bolivia": "2026-10-22 09:13:25",
+    "bolivia_hora": "09:13",
+    "utc_iso": "2026-10-22T13:13:25+00:00",
+    "dia_semana": "jueves"
   },
   "contexto": {
     "us10y": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "valor": 5.12,
+      "fecha": "2026-10-20",
+      "previo": 5.15,
+      "cambio": -0.03
     },
     "us2y": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "valor": 4.79,
+      "fecha": "2026-10-20",
+      "previo": 4.77,
+      "cambio": 0.02
     },
     "us30y": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "valor": 5.42,
+      "fecha": "2026-10-20",
+      "previo": 5.48,
+      "cambio": -0.06
     },
     "vix": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "valor": 17.31,
+      "fecha": "2026-10-20",
+      "previo": 18.44,
+      "cambio": -1.13
     },
     "dxy": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "valor": 121.4048,
+      "fecha": "2026-10-16",
+      "previo": 121.5693,
+      "cambio": -0.1645
     },
     "wti": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "valor": 107.89,
+      "fecha": "2026-10-20",
+      "previo": 110.01,
+      "cambio": -2.12
     }
   },
   "publicaciones": {
