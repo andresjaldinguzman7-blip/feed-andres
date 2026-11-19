@@ -3,9 +3,9 @@
   "_como_leerlo": "'contexto' trae el último valor de cada serie. 'publicaciones' guarda cada comunicado capturado: 'cifras' es extracción automática y puede fallar, 'texto_crudo' es el texto real. Ante la duda, vale el texto crudo.",
   "_aviso_latencia": "GitHub Actions no dispara con precisión de minuto: puede retrasarse. La captura está abierta 45 minutos desde la hora programada.",
   "generado": {
-    "bolivia": "2026-11-19 05:58:10",
-    "bolivia_hora": "05:58",
-    "utc_iso": "2026-11-19T09:58:10+00:00",
+    "bolivia": "2026-11-19 16:51:13",
+    "bolivia_hora": "16:51",
+    "utc_iso": "2026-11-19T20:51:13+00:00",
     "dia_semana": "jueves"
   },
   "contexto": {
@@ -28,10 +28,10 @@
       "cambio": 0.0
     },
     "vix": {
-      "valor": 25.46,
-      "fecha": "2026-11-17",
-      "previo": 22.91,
-      "cambio": 2.55
+      "valor": 24.56,
+      "fecha": "2026-11-18",
+      "previo": 25.46,
+      "cambio": -0.9
     },
     "dxy": {
       "valor": 122.6503,
